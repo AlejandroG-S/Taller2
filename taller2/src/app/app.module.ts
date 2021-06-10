@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { FacturaComponent } from './factura/factura.component';
+import { ClienteComponent } from './cliente/cliente.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FacturaComponent
+    FacturaComponent,
+    ClienteComponent
   ],
   imports: [
     BrowserModule
